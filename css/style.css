@@ -1,0 +1,143 @@
+body {
+    background-color: #2C3445;
+}
+
+.text {
+    text-align: center;
+    color: rgb(217, 211, 224);
+    padding: 1em;
+}
+
+.img {
+    width: 100%;
+}
+
+/* nav bar */
+ nav {
+     width: 100%;
+     display: flex;
+     flex-direction: row;
+     justify-content: space-between;
+ }
+
+nav h1 {
+    color: rgb(217, 211, 224);
+}
+
+span {
+     color: rgb(132, 128, 136);
+ }
+
+q {
+    font-style: italic;
+}
+
+.nav-item {
+    display: block;
+    padding: 0 0.5em;
+}
+
+ .icon {
+    height: 4em;
+    padding: 0.5em;
+ }
+
+ /* banner */
+ .cafe-img {
+     max-width: 100%;
+     height: auto;
+ }
+
+ .tile {
+    
+    background-color: rgba(44, 52, 69, 0.95);
+    text-align: center;
+    color: rgb(217, 211, 224);
+    
+ }
+
+
+ /* mission */
+
+ .mission-container {
+    background-color: rgb(28, 33, 44);
+ }
+
+ /* cats */
+
+
+ .cats-images {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+ .cat-img {
+    width: 50%;
+    height: auto;
+}
+
+/* footer*/
+
+footer {
+    margin-top: 2em;
+    border-top: 2px solid black;
+}
+
+.social {
+    display: flex;
+    justify-content: center;
+}
+
+.social-icon {
+    width: 2.5em;
+    height: auto;
+    padding: 0 1em 1em 1em;
+}
+
+.footer-text {
+    padding: 0 1em;
+}
+
+ @media only screen and (min-width: 1024px) {
+    .cafe-img {
+        position: relative;
+    }
+
+    .tile {
+        padding: 2em;
+        width: 40%;
+        height: auto;
+        position: absolute;
+        top: 76%;
+        right: 10%;
+        z-index: 5;
+    }
+
+    .coffee-container {
+        padding: 0;
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+
+    .coffee-img {
+        width: 50%;
+        height: auto;
+        padding: 1em;
+    }
+
+    .coffee-text {
+        width: 40%;
+    }
+
+    .cat-img {
+        width: 15%;
+        height: auto;
+    }
+
+
+
+
+ }
